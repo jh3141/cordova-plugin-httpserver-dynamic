@@ -1,0 +1,24 @@
+{
+  "name": "org.uk.dsf.cordova.httpexample",
+  "displayName": "HTTP Example",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that creates a web server with dynamic content.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julian Hall <jh314159@googlemail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cordova-android": "^6.3.0",
+    "cordova-plugin-whitelist": "^1.3.3"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}

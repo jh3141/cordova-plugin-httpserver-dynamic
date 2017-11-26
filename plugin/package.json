@@ -1,0 +1,29 @@
+{
+  "name": "cordova-plugin-httpserver-dynamic",
+  "displayName": "Dynamic HTTP Server Cordova Plugin",
+  "version": "1.0.0",
+  "description": "A plugin for Apache Cordova that runs a web server that is able to serve dynamic content.  Android support available now, iOS to come soon.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julian Hall <jh314159@googlemail.com>",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/jh3141/cordova-plugin-httpserver-dynamic" },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "cordova": {
+    "id": "cordova-plugin-httpserver-dynamic",
+    "platforms": [
+      "android"
+    ]
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "2.0.0": {
+        "cordova": ">100"
+      }
+    }
+  }
+}

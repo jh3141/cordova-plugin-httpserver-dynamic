@@ -1,0 +1,12 @@
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+}
+dependencies {
+    compile ('com.github.jh3141:nanohttpd:patched-SNAPSHOT') {
+        exclude module: 'nanohttpd-webserver-markdown-plugin'
+        exclude group: 'org.parboiled'
+    }
+}

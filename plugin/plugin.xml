@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="uk.org.dsf.cordova.dynamichttp" version="1.0.0"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<name>cordova-plugin-httpserver-dynamic</name>
+
+<js-module name="dynamicHttpServer" src="www/dynamicHttpServer.js">
+    <clobbers target="cordova.plugins.dynamicHttpServer" />
+</js-module>
+
+<platform name="android">
+    <config-file parent="/*" target="res/xml/config.xml">
+        <feature name="cordova-plugin-httpserver-dynamic">
+            <param name="android-package" value="uk.org.dsf.cordova.dynamichttp.DynamicHttpServer" />
+        </feature>
+    </config-file>
+    <config-file parent="/*" target="AndroidManifest.xml">
+    </config-file>
+
+    <framework src="src/android/dynamichttpserver.gradle" custom="true" type="gradleReference" />
+
+    <source-file src="src/android/DynamicHttpServer.java" target-dir="src/uk/org/dsf/cordova/dynamichttp" />
+    <source-file src="src/android/JSONUtils.java" target-dir="src/uk/org/dsf/cordova/dynamichttp" />
+</platform>
+
+</plugin>
