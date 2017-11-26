@@ -31,6 +31,6 @@ exports.startServer = function (hostname, port, callback, onStarted, error) {
     }
 };
 
-#exports.stopServer = function (serverId, success, error) {
-#    exec(success, error, 'cordova-plugin-httpserver-dynamic', 'stopServer', [port]);
-#}
+//exports.stopServer = function (serverId, success, error) {
+//   exec(success, error, 'cordova-plugin-httpserver-dynamic', 'stopServer', [port]);
+//}

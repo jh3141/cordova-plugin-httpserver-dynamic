@@ -1,7 +1,7 @@
 {
   "name": "cordova-plugin-httpserver-dynamic",
   "displayName": "Dynamic HTTP Server Cordova Plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A plugin for Apache Cordova that runs a web server that is able to serve dynamic content.  Android support available now, iOS to come soon.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
