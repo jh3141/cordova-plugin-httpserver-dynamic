@@ -6,7 +6,7 @@ Android support available now, iOS to come soon.
 ## Documentation
 
 Full documentation is available in the README file of the `plugin` directory, and should be
-viewable [here](https://github.com/jh3141/cordova-plugin-httpserver-dynamic/plugin/).
+viewable [here](https://github.com/jh3141/cordova-plugin-httpserver-dynamic/tree/master/plugin/).
 
 ## Example
 
